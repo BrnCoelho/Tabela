@@ -1,0 +1,62 @@
+/* Resetando margens */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: Arial, sans-serif; 
+  }
+  
+  /* corpo da página */
+  body {
+    background-color:  beige; 
+    display: flex; 
+    justify-content: center; /* centralizar horizontalmente */
+    align-items: center; /* centralizar verticalmente */
+    height: 100vh; 
+  }
+  
+  /*  contêiner principal */
+  .container {
+    width: 100%; /* Define a largura do contêiner como 90% da tela */
+    max-width: 1500px; /* Define a largura máxima como 1200px */
+    background-color: #fff; 
+    padding: 20px; /* Espaçamento interno */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  th:nth-child(1), td:nth-child(1) { /*primeira coluna do cabecalho */
+    width: 5%; /* largura minima  para o id */
+    white-space: nowrap; /* número não quebre em várias linhas */
+    text-align: center; 
+  }
+  
+  /*  título principal */
+  h1 {
+    text-align: center; 
+    margin-bottom: 20px; /* margin inferior do titulo */
+    color:  blue;
+  }
+  
+  /*  tabela */
+  table {
+    width: 100%; /* ocupa toda a largura disponível */
+    border-collapse: collapse; /*  espaços entre as células */
+  }
+  
+  /*  células da tabela (cada espaço da tabela)*/
+  th, td {
+    padding: 15px; /* espaçamento interno das linhas*/
+    text-align: left; 
+    border-bottom: 1px solid #ddd; /*  divisoria entre as linhas */
+  }
+  
+  
+  th {/* Estilo do cabeçalho da tabela */
+    background-color: blue;
+    color: white; 
+  }
+  
+  td {
+    word-break: break-word; /* garantir que os conteudos de cada cedula nao transborde*/
+  }
+  

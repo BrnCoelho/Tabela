@@ -1,0 +1,36 @@
+<!DOCTYPE html> 
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> >
+  <title>Lista de Usuários</title> 
+  <link rel="stylesheet" href="style.css" /> <!-- vincula ao arquivo css -->
+  <script src="script.js"></script> <!-- conecta arquivo javascript-->
+</head>
+<body>
+  <div class="container"> <!--  limitar a largura do conteúdo -->
+    <h1>Lista de Usuários</h1> <!-- Título principal da página -->
+    
+    <table id="userTable"> <!-- Início da tabela que mostrará os dados -->
+      <thead> <!-- Cabeçalho da tabela -->
+        <tr> <!-- Linha do cabeçalho -->
+          <th>ID</th> 
+          <th>Name</th> 
+          <th>Username</th>  <!--atributos do usuario --> 
+          <th>Email</th> 
+          <th>Phone</th> 
+          <th>Website</th> 
+          <th>Eddress</th> 
+          <th>Geo</th> 
+          <th>Company</th> 
+        </tr>
+      </thead>
+      <tbody> <!-- dados serao inseridos de forma dinamica -->
+        <tr>
+          <td colspan="9">Carregando...</td> <!-- Célula que ocupa 9 colunas para exibir a mensagem "Carregando..." -->
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
